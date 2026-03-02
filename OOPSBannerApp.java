@@ -1,4 +1,4 @@
-public class oopsbanner_app {
+public class OOPSBannerApp {
     
     public static String[] getOpattern() {
         String[] lines =   {"   ***    ",
