@@ -21,7 +21,7 @@ public class OOPSBannerApp {
     }
 
     public static CharacterPatternMap[] createCharacterPatternMaps() {
-        CharacterPatternMap[] charMaps = new CharacterPatternMap[26];
+        CharacterPatternMap[] charMaps = new CharacterPatternMap[4];
         charMaps[0] = new CharacterPatternMap('o', new String[]{
             "   ***   ",
             " **   ** ",
@@ -69,7 +69,7 @@ public class OOPSBannerApp {
     }
 
     public static void printMessage(String message, CharacterPatternMap[] charMaps){
-        StringBuilder[] outputLines = new StringBuilder[10];
+        StringBuilder[] outputLines = new StringBuilder[8];
         for (int i = 0; i < outputLines.length; i++) {
             outputLines[i] = new StringBuilder();
         }
